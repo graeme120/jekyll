@@ -4,4 +4,6 @@ layout: home
 
 
 
-[Jekyll](https://jekyllrb.com) is a popular CMS/static site generator. We’ll use it for simple templating and content management.
+This site is made in [Jekyll](https://jekyllrb.com), a popular CMS/static site generator. It is great for simple templating and content management.
+
+*We’ll demonstrate a few of these basic, powerful uses here, such that you can adapt them to your own work.*

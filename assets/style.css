@@ -42,6 +42,26 @@ p a {
 
 
 
-main {
-	padding: 4em 2em 50vh;
+h1 {
+	font-size: 2em;
+	font-weight: 200;
 }
+
+header,
+main {
+	padding: 2em;
+}
+
+header {
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 0.1em;
+	height: 25vh;
+	position: sticky;
+	top: 0;
+}
+
+main {
+	padding-bottom: 50vh;
+}
+
