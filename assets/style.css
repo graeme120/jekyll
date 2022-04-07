@@ -1,0 +1,50 @@
+/* This is from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+
+
+body {
+	font-family: 'Inter', sans-serif; /* From Google Fonts. */
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1;
+	padding: 4em 2em 50vh; /* Nice room at the end of the page. */
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+
+
+h1 {
+	font-size: 4em;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 200;
+}
+
+h1, h2 {
+	margin-bottom: 1em;
+}
+
+
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p a {
+	color: tomato;
+	text-decoration: underline;
+	text-decoration-thickness: 0.075em;
+}
