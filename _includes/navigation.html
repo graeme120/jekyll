@@ -1,0 +1,15 @@
+{% assign project = site.pages | where: "layout", "project" | sort: "title" %}
+<nav>
+	<menu>
+		<li>
+			<a href="{{ site.baseurl }}/">Home</a>
+		</li>
+		{% for page in project %}
+			<li>
+				<a href="{{ page.url | relative_url | remove: '.html' }}">
+					{{ page.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</menu>
+</nav>

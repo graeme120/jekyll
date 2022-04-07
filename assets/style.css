@@ -35,7 +35,6 @@ p + p {
 }
 
 p a {
-	color: tomato;
 	text-decoration: underline;
 	text-decoration-thickness: 0.075em;
 }
@@ -48,15 +47,14 @@ h1 {
 }
 
 header,
-main {
+main,
+nav {
 	padding: 2em;
 }
 
 header {
 	background-color: white;
-	border-bottom-style: solid;
-	border-bottom-width: 0.1em;
-	height: 25vh;
+	border-bottom: 0.1em solid;
 	position: sticky;
 	top: 0;
 }
@@ -65,3 +63,39 @@ main {
 	padding-bottom: 50vh;
 }
 
+nav {
+	background-color: white;
+	border-top: 0.1em solid;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+menu {
+	display: flex;
+	gap:     1em;
+}
+
+menu li {
+	min-width: max-content;
+}
+
+@media (min-width: 768px) {
+	nav {
+		border-left: 0.1em solid;
+		border-top: none;
+		height: 100%;
+		right: 0;
+		width: auto;
+	}
+
+	menu {
+		flex-direction: column;
+		height: 100%;
+		justify-content: end;
+	}
+
+	main {
+		margin-right: 25vh;
+	}
+}
