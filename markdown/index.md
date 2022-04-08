@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Markdown
-nav: 1
+nav: 2
 ---
 
 ## Easier text formatting

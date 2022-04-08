@@ -1,16 +1,15 @@
 {% assign current = page.url %}
-{% assign pages = site.pages | where: "layout", "page" | sort: "nav" %}
+{% assign pages = site.pages | sort: "nav" %}
 <nav>
 	<menu>
-		<li class="{% if page.url == '/' %}current{% endif %}">
-			<a href="{{ site.baseurl }}/">Home</a>
-		</li>
 		{% for page in pages %}
-			<li class="{% if page.url == current %}current{% endif %}">
-				<a href="{{ page.url | relative_url | remove: '.html' }}">
-					{{ page.title }}
-				</a>
-			</li>
+			{% if page.nav %}
+				<li class="{% if page.url == current %}current{% endif %}">
+					<a href="{{ page.url | relative_url | remove: '.html' }}">
+						{{ page.title | default: 'Home' }}
+					</a>
+				</li>
+			{% endif %}
 		{% endfor %}
 	</menu>
 </nav>
