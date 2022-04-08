@@ -1,5 +1,5 @@
 /* This is from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;&display=swap');
 
 
 
@@ -23,7 +23,7 @@ em {
 }
 
 strong {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 p {
@@ -39,8 +39,6 @@ p a {
 	text-decoration-thickness: 0.075em;
 }
 
-
-
 h1 {
 	font-size: 2em;
 	font-weight: 200;
@@ -48,13 +46,49 @@ h1 {
 
 h2 {
 	margin-bottom: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 0.5em;
 	width: fit-content;
 }
 
 h2, header {
 	border-bottom: 0.1em solid;
 }
+
+ul {
+	list-style-type: '—';
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-left: 1em;
+}
+
+ul li {
+	margin-top: 0.5em;
+	padding-left: 1em;
+}
+
+li::marker {
+	margin-right: 1em;
+}
+
+code {
+	background-color: rgba(0, 0, 0, 0.066);
+	color: tomato;
+	border-radius: 0.2em;
+	display: inline-block;
+	font-family: monospace;
+	padding: 0.2em 0.4em;
+	font-size: 0.9em;
+	white-space: pre;
+}
+
+blockquote {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	border-left: 0.1em solid;
+}
+
+
 
 header,
 main,

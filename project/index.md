@@ -3,6 +3,18 @@ layout: project
 title: Project I
 ---
 
-Collage modern industrial Keith Haring Glitch Art phenomenon society. Identity modulate belonging nothingness embodiment institutional male gaze. Hyperspace patriarchy transgressive outsider social justice audience participation feminist artist's studio Web Art. Ethereal erotic subversive cabinet of curiosities absurd propaganda fetish feminist modern. Memory re-purposed materials institutional represents appropriate environment evocative emotion.
+## Markdown
 
-Industrial vaginal homogenized chaos contrast Fountain complexity brutal explore. Evocative dream state zine external transformation nothingness navigate figment capitalism. Dream state loss authoritarian experimentation body art intimate difference. Stimulation superstition ethnography virtual reality bespoke mass-produced environment. Institutional modulate dialogue society disenchantment cross-cultural appropriate trans.
+Jekyll uses [Markdown](https://www.markdownguide.org/getting-started/) for marking… up text. It has a special *syntax* that is *parsed* into basic HTML, instead of manually writing it all out by hand.
+
+It’s used by *many, many* things now: Google chats, Slack, Reddit, GitHub, Are.na, Notion, etc. Often [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) text editors are just adding Markdown syntax around things!
+
+* It’s **much easier** to read the source.
+* It is usually much quicker to write.
+* Your changes (Git’s `diff`) are clear.
+* And overall it is less error-prone.
+
+…than writing all the elements/tags yourself! Markdown does have to be compiled/parsed out into HTML, but a lot of software does this behind the scenes.
+
+> I *love* Markdown. If there is only one thing you take away from our class, let it be some fluency in `.md`. It’s the [lingua franca](https://en.wikipedia.org/wiki/Lingua_franca) for basic text formatting.
+
