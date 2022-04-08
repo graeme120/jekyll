@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Structured Data
-summary: Structured data allows for more control.
+summary: Structured data allows for more control.
 images:
   - file: 1.jpg
     title: Fig
