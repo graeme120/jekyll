@@ -188,6 +188,16 @@ body.page figcaption {
 	margin-top: 1em;
 }
 
+body.page figure a {
+	border: 0.1em solid;
+	display: inline-block;
+	font-size: 0.66em;
+	font-weight: 300;
+	margin-top: 1em;
+	padding: 0.25em;
+	text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
 	body.page > main > section {
 		grid-template-columns: repeat(4, 1fr);
