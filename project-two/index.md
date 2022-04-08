@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Project II
+summary: Structured data allows for more control.
 images:
   - file: 1.jpg
     title: Fig
@@ -22,6 +23,12 @@ images:
     link: https://www.moma.org/collection/works/194638
 ---
 
-## Type Specimen Portfolio
+## Structured Data
 
-Mixed media meaning commercialism boundaries Yoko Ono socially-constructed collaborative dogma. Basquiat contemplation found object digital white male bodily experience dominated. Artist's studio observers internal eroticism feminine power identity ethereal cliché. Comic art manifesto display expressive public space immaterial alternative love sustainable. Avant-garde Dada consciousness anti-hero surface emotion materiality.
+Often you are going to want to have more control than Markdown alone allows. Jekyll facilitates this with *structured data* it calls *[front-matter](https://jekyllrb.com/docs/front-matter/)*.
+
+This is saved at the top of your `.md` files, in a data format called [YAML](https://en.wikipedia.org/wiki/YAML)—for *Yet Another Markup Language*. (So many languages, I know.)
+
+### Note that YAML/YML uses spaces for indentation, and will break with tabs character! I do this all the time.
+
+This data can then be accessed in your `layouts` and `includes` for consistent structure and formatting! A bit like our *Are.na* projects.

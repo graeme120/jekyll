@@ -7,6 +7,8 @@ title: Project I
 
 Jekyll uses [Markdown](https://www.markdownguide.org/getting-started/) for marking… up text. It has a special *syntax* that is *parsed* into basic HTML, instead of manually writing it all out by hand.
 
+---
+
 It’s used by *many, many* things now: Google chats, Slack, Reddit, GitHub, Are.na, Notion, etc. Often [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) text editors are just adding Markdown syntax around things!
 
 * It’s **much easier** to read the source.
