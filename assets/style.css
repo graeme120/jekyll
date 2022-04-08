@@ -59,6 +59,10 @@ menu li {
 	min-width: max-content;
 }
 
+menu li.current {
+	color: tomato;
+}
+
 @media (min-width: 768px) {
 	body {
 		flex-direction: row;
