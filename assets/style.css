@@ -41,8 +41,13 @@ nav {
 }
 
 main {
-	padding-bottom: 50vh;
 	width: 100%;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50vh;
 }
 
 header + main {
