@@ -46,6 +46,16 @@ h1 {
 	font-weight: 200;
 }
 
+h2 {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	width: fit-content;
+}
+
+h2, header {
+	border-bottom: 0.1em solid;
+}
+
 header,
 main,
 nav {
@@ -54,7 +64,6 @@ nav {
 
 header {
 	background-color: white;
-	border-bottom: 0.1em solid;
 	position: sticky;
 	top: 0;
 }
@@ -98,5 +107,25 @@ menu li {
 
 	main {
 		margin-right: 25vh;
+	}
+}
+
+
+
+body.project > main > section {
+	margin-top: 4em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2em;
+}
+
+body.project figcaption {
+	font-style: italic;
+	margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+	body.project > main > section {
+		grid-template-columns: repeat(4, 1fr);
 	}
 }

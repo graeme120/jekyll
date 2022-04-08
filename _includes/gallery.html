@@ -1,0 +1,12 @@
+{% if page.images %}
+	<section>
+		{% for image in page.images %}
+			<a href="{{ image.link }}">
+				<figure>
+					<img src="{{ image.file }}">
+					<figcaption>{{ image.title }}</figcaption>
+				</figure>
+			</a>
+		{% endfor %}
+	</section>
+{% endif %}
