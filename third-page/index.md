@@ -1,6 +1,6 @@
 ---
-layout: project
-title: Project III
+layout: page
+title: Third Page
 ---
 
 Non-white stimulation virtual reality poetic audience participation cross-cultural expressive artifacts. Modern real Dada manifesto haunted blurred utopia globalization. Virtual relational Keith Haring dynamic racial politics socially-constructed culture culture jamming film. Experimental substance ethereal anti-hero Fluxus urban interrogates historical. Body art other plurality surface hyperspace street art sentient.

@@ -1,9 +1,9 @@
 ---
-layout: project
-title: Project I
+layout: page
+title: Markdown
 ---
 
-## Markdown
+## Easier text formatting
 
 Jekyll uses [Markdown](https://www.markdownguide.org/getting-started/) for marking… up text. It has a special *syntax* that is *parsed* into basic HTML, instead of manually writing it all out by hand.
 

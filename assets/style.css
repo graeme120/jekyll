@@ -157,26 +157,26 @@ menu li {
 	}
 
 	main {
-		margin-right: 25vh;
+		margin-right: 25vw;
 	}
 }
 
 
 
-body.project > main > section {
+body.page > main > section {
 	margin-top: 4em;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2em;
 }
 
-body.project figcaption {
+body.page figcaption {
 	font-style: italic;
 	margin-top: 1em;
 }
 
 @media (min-width: 768px) {
-	body.project > main > section {
+	body.page > main > section {
 		grid-template-columns: repeat(4, 1fr);
 	}
 }

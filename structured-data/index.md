@@ -1,6 +1,6 @@
 ---
-layout: project
-title: Project II
+layout: page
+title: Structured Data
 summary: Structured data allows for more control.
 images:
   - file: 1.jpg
@@ -23,7 +23,7 @@ images:
     link: https://www.moma.org/collection/works/194638
 ---
 
-## Structured Data
+## Templating with Jekyll
 
 Often you are going to want to have more control than Markdown alone allows. Jekyll facilitates this with *structured data* it calls *[front-matter](https://jekyllrb.com/docs/front-matter/)*.
 
