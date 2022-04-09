@@ -1,6 +1,3 @@
 title: Jekyll
 
-baseurl: '/jekyll'
-url: 'https://typography-and-interaction-too.github.io'
-
 livereload: true
